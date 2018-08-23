@@ -38,6 +38,10 @@ If you have `pip <https://pip.pypa.io/>`_ on your system, you can simply install
 Alternately, you can download the source distribution from `PyPI <https://pypi.org/project/selenium/#files>`_ (e.g. selenium-3.14.0.tar.gz), unarchive it, and run::
 
     python setup.py install
+    
+Or use `pip` to get it directly from the repository::
+
+    pip install -U git+https://github.com/SeleniumHQ/selenium.git#subdirectory=py
 
 Note: You may want to consider using `virtualenv <http://www.virtualenv.org/>`_ to create isolated Python environments.
 
